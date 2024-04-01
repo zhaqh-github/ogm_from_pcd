@@ -11,7 +11,7 @@
 Run the function:
 `python3 cd/path/to/create_occupancy_grid_map.py`  
 
-![ogm](docu/ogm_sample.jpg)
+![ogm](ogm_sample.jpg)
 
   
 2.**testreprojection**: The primary purpose of this test is to compare the reprojection-generated 2D coordinates in the occupancy grid map with the original 2D coordinates to assess the precision of the reprojection and inverse reprojection processes  
