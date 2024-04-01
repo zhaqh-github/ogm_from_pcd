@@ -1,4 +1,4 @@
-# ogm_from_pcd
+# PC2OGM
 ## Overview
 **PC2OGM** is an algorithm developed for generating an Occupancy Grid Map (OGM) from point cloud data, along with associated functions for testing the accuracy of the generated map through re-projection. 
   
@@ -11,9 +11,14 @@
 Run the function:
 `python3 cd/path/to/create_occupancy_grid_map.py`  
 
+![ogm](docu/ogm_sample.jpg)
+
   
 2.**testreprojection**: The primary purpose of this test is to compare the reprojection-generated 2D coordinates in the occupancy grid map with the original 2D coordinates to assess the precision of the reprojection and inverse reprojection processes  
   
 Run the test: `python3 cd/path/to/testreprojection.py`  
 
-PCD file Link: https://drive.google.com/drive/folders/1jofyz_LqmUCmKQmoMSPKpWAhPikRSRuM?usp=drive_link
+Dropbox Link: https://www.dropbox.com/scl/fo/3thbhuhhstq14xf9nteof/h?rlkey=pvm7g1me5yf5nfwyz1gul9iou&dl=0  
+
+
+
